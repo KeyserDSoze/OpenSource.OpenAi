@@ -58,7 +58,7 @@ Install-Package OpenSource.OpenAi
 
 ## Dependency Injection
 
-### Add to service collection the UI service in your blazor DI
+### Add to service collection the UI service in your DI
 
     var apiKey = configuration["Azure:ApiKey"];
     var resourceName = configuration["Azure:ResourceName"];
