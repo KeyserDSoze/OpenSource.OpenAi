@@ -1,8 +1,6 @@
 # C#/.NET SDK for accessing the OpenAI GPT-3 API
 
-A simple C# .NET wrapper library to use with [OpenAI](https://openai.com/)'s GPT-3 API. 
-This is a “unofficial" library.
-More context [on Roger Pincombe's blog](https://rogerpincombe.com/openai-dotnet-api) and forked from [OpenAI-API-dotnet](https://github.com/OkGoDoIt/OpenAI-API-dotnet).
+A simple C# .NET wrapper library to use with [OpenAI](https://openai.com/)'s GPT-3 API.  More context [on Roger Pincombe's blog](https://rogerpincombe.com/openai-dotnet-api) and forked from [OpenAI-API-dotnet](https://github.com/OkGoDoIt/OpenAI-API-dotnet).
 
 > This repository is available to transfer to the OpenAI organization if they so choose to accept it.
 
@@ -16,11 +14,11 @@ Watch out my Rystem framework to be able to do .Net webapp faster (easy integrat
 
 ## Setup
 
-Install package [`OpenSource.OpenSource.OpenAi` from Nuget](https://github.com/KeyserDSoze/Microsoft.OpenAi).  
+Install package [`OpenSource.OpenAi` from Nuget](https://github.com/KeyserDSoze/OpenSource.OpenAi).  
 Here's how via command line:
 
 ```powershell
-Install-Package OpenSource.OpenSource.OpenAi
+Install-Package OpenSource.OpenAi
 ```
 
 ## Documentation
@@ -68,7 +66,5 @@ Install-Package OpenSource.OpenSource.OpenAi
     services.AddOpenAi(settings =>
     {
         settings.ApiKey = apiKey;
-        settings.Azure.ResourceName = resourceName;
-        settings.Azure.DeploymentId = deploymentId;
     });
 

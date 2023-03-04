@@ -14,11 +14,11 @@ Watch out my Rystem framework to be able to do .Net webapp faster (easy integrat
 
 ## Setup
 
-Install package [`OpenSource.OpenSource.OpenAi` from Nuget](https://github.com/KeyserDSoze/Microsoft.OpenAi).  
+Install package [`OpenSource.OpenAi` from Nuget](https://github.com/KeyserDSoze/OpenSource.OpenAi).  
 Here's how via command line:
 
 ```powershell
-Install-Package OpenSource.OpenSource.OpenAi
+Install-Package OpenSource.OpenAi
 ```
 
 ## Documentation
@@ -66,7 +66,5 @@ Install-Package OpenSource.OpenSource.OpenAi
     services.AddOpenAi(settings =>
     {
         settings.ApiKey = apiKey;
-        settings.Azure.ResourceName = resourceName;
-        settings.Azure.DeploymentId = deploymentId;
     });
 
